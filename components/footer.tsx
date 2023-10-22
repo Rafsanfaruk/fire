@@ -42,13 +42,13 @@ const Footer = () => {
             </h2>
             <nav className="list-none mb-10">
               <Link href="/privacy-policy">
-                <div className="text-white hover-text-[#EF4444]">Privacy policy</div>
+                <div className="text-white hover:text-[#EF4444]">Privacy policy</div>
               </Link>
               <Link href="/terms-and-conditions">
-                <div className="text-white hover-text-[#EF4444]">Term & Condition</div>
+                <div className="text-white hover:text-[#EF4444]">Term & Condition</div>
               </Link>
               <Link href="/cookie-policy">
-                <div className="text-white hover-text-[#EF4444]">Cookie Policy</div>
+                <div className="text-white hover:text-[#EF4444]">Cookie Policy</div>
               </Link>
             </nav>
           </div>

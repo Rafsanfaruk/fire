@@ -26,13 +26,17 @@ const Navbar = () => {
           About Us
         </Link>
       </div>
+      <div className='flex gap-3'>
       <div>
-        <Button variant="outline" className="mr-2 rounded-md">
-          Login
-        </Button>
-        <Button className='rounded-lg'>
+      <Link href="/log-in" className="">
+          LogIn
+        </Link>
+      </div>
+       <div>
+       <Button className='rounded-lg '>
           Get Started
         </Button>
+       </div>
       </div>
     </nav>
   );
